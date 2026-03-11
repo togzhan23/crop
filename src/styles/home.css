@@ -1,0 +1,80 @@
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:40px;
+margin-bottom:100px;
+}
+
+.hero-left{
+max-width:600px;
+}
+
+.hero h1{
+font-size:56px;
+margin-bottom:20px;
+}
+
+.hero p{
+color:#94a3b8;
+font-size:18px;
+margin-bottom:25px;
+}
+
+.hero button{
+background:#22c55e;
+padding:12px 24px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-weight:600;
+}
+
+.hero-right{
+flex:1;
+}
+
+.section{
+margin-top:120px;
+text-align:center;
+}
+
+.section h2{
+font-size:32px;
+margin-bottom:20px;
+}
+
+.section p{
+color:#94a3b8;
+max-width:800px;
+margin:auto;
+}
+
+.cards{
+display:flex;
+gap:25px;
+margin-top:40px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card-item{
+background:#111827;
+border:1px solid #1f2937;
+padding:25px;
+border-radius:12px;
+max-width:260px;
+text-align:center;
+}
+
+.pipeline{
+margin-top:30px;
+font-size:18px;
+color:#cbd5f5;
+}
+
+.preview{
+margin-top:40px;
+border-radius:12px;
+overflow:hidden;
+}
